@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap");
+
+@import "clock.css";
+
+body {
+  background-color: thistle;
+  display: flex;
+  height: 98vh;
+  font-family: "Noto Sans KR", sans-serif;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+  font-size: 35px;
+  color: whitesmoke;
+}

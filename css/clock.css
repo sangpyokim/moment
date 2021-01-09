@@ -1,0 +1,77 @@
+.js-clock {
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: whitesmoke;
+}
+
+.js-toDoForm {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.js-toDoForm input {
+  background-color: thistle;
+  border: none;
+  border-bottom: 2px solid white;
+  width: 400px;
+  height: 30px;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.js-toDoForm input:focus-within {
+  outline: none;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.js-toDoForm input::placeholder {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.js-toDoForm input:focus::placeholder {
+  color: transparent;
+}
+
+.js-toDoList {
+  color: whitesmoke;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.js-toDoList button {
+  border: none;
+  background-color: transparent;
+  padding-top: 5px;
+  font-size: 20px;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.div-toDoList {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  height: 150px;
+  transition: 1s ease-in-out;
+}
+
+.div-toDoList label {
+  color: whitesmoke;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.div-toDoList li {
+  text-align: left;
+}
